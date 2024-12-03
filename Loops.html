@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JavaScript</title>
+    <style>
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Loops in JavaScript
+    </h1>
+    <p id="p1"></p>
+    <script>
+        var OnePiece = ["Mokey D.Luffy", "Roronoa Zoro", "Nami", "Usopp"];
+        var text = "";
+        var i;
+        for (i = 0; i < OnePiece.length; i++) {
+            text = text + OnePiece[i] + "<br>";
+        }
+        document.getElementById("p1").innerHTML = text;
+    </script>
+</body>
+</html>
